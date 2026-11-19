@@ -1,6 +1,6 @@
 # FSHN Hybrid Recommendation System
 
-Public source release of the recommendation component used in Adel Mansour's BSc dissertation project. The modular TypeScript service combines language-model intent parsing, embedding retrieval, symbolic item scoring, outfit compatibility and diversity-aware assembly.
+This is the recommendation component I built for my BSc dissertation project. The modular TypeScript service combines language-model intent parsing, embedding retrieval, symbolic item scoring, outfit compatibility and diversity-aware assembly.
 
 The public module exposes PromptParser, CatalogRepository, EmbeddingService, CandidateRanker, OutfitAssembler and RecommendationService. The source includes the original base service used by the modular implementation. It accepts catalogue and embedding inputs through its typed request interface. See [service implementation](src/recommendation/RecommendationService.ts) and [request types](src/recommendation/types.ts).
 
